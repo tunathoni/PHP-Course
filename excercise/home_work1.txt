@@ -1,0 +1,14 @@
+#About : Array Multi Dimensi
+
+#Soal 1
+
+$arr1 = [
+	['A','B','C'],
+	[1, 2, 3, 4, 5, 6],
+	['Joko', 'Budi', 'Yuni']
+]; 
+
+output :
+
+Joko mempunyai anak sebanyak 4 orang sekelas dengan anaknya Yuni yaitu di kelas A, mereka menambahkan angka 2,3 dan 4 menjadi 9. Budi menjumlahkan angka 5 dan 6 menjadi 11.
+
