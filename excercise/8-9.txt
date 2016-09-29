@@ -1,0 +1,61 @@
+#8
+$arr2 = [
+	'buku 1',
+	'buku 2',
+	'buku 3',
+	'buku 4',
+	'buku 5',
+];
+
+tampilkan seperti dibawah ini dengan menggunakan perulangan :
+
+buku 2
+buku 3
+buku 4
+
+1. Awfar
+2. Hafiz
+3. Rizal
+4. Samsul Huda
+
+#9
+$nama = [
+	'Thoni',
+	'Budi',
+	'Anto',
+	'Joko',
+	'Andik',
+];
+
+$benda = [
+	'Piring',
+	'Gelas',
+	'Sendok',
+];
+
+output :
+
+Thoni membawa Piring dan Gelas, sedangkan Joko membawa Sendok bersama Budi, Anto dan Andik.
+
+1. Rizal
+2. Awfar
+3. Mustofa
+4. Hafiz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

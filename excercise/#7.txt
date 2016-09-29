@@ -1,0 +1,23 @@
+#7
+
+> Ada sebuah perulangan mulai dari 1 s/d 10
+> Pada setiap kelipatan 2 maka tampilkan kata "Hore"
+> Pada setiap kelipatan 3 maka tampilkan kata "Ciyee"
+
+output :
+
+1
+2 - Hore
+3 - Ciyee
+4 - Hore
+5
+6 - Ciyee Hore
+7
+8 - Hore
+9 - Ciyee
+10 - Hore
+
+1. Rizal
+2. Awfar
+3. Redika
+4. Mustofa

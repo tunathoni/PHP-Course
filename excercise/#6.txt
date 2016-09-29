@@ -1,0 +1,24 @@
+#6
+
+> Ada sebuah perulangan mulai 1 - 10
+> Jika menemui angka genap makan munculkan genap
+> Jika menemui angka ganjil, maka buat perulangan mulai 1 - 3
+
+output :
+
+1 - Ganjil
+ganjil - 1 
+ganjil - 2
+ganjil - 3
+2 - Genap
+3 - Ganjil
+ganjil - 1 
+ganjil - 2
+ganjil - 3
+
+dst.
+
+1. Awfar
+2. Rizal
+3. Hafiz
+4. Mustofa

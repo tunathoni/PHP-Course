@@ -1,0 +1,73 @@
+#5 
+
+$val = "Saya punya anjing 1 dan kucing 2";
+
+> Ambil nilai 1 dan 2
+
+output :
+
+Anjing 1 dan Kucing 2 jumlahnya = 3
+
+1. Awfar
+2. Redika
+3. Rizal
+4. Antoni
+
+#4 
+
+$val = "Umur saya 24 tahun";
+
+> Ambil nilai 24
+> munculkan ganjil jika angka tsb ganjil, 
+> munculkan genap jika angka tsb genap, 
+
+output :
+
+24 adalah genap
+
+1. Awfar
+2. Rizal
+3. Hafiz
+4. Syamsul Huda
+
+#1
+
+$val = 'Hello World';
+
+output =
+
+wORLD
+
+
+1. Awfar
+2. Rizal
+3. Syamsul Huda
+4. Mustofa
+
+#2
+
+$val = 'Hello World';
+
+output =
+
+Llo Wor
+
+1. Awfar
+2. Antoni
+3. Mustofa
+4. Redika
+
+#3 
+
+$val = "Umur saya 24.5 tahun";
+
+> Ambil nilai 24.5
+> kalikan dengan 3
+> pangkatkan dengan 2
+> bulatkan keatas
+
+1. Awfar
+2. Redika
+3. Antoni
+4. Mustofa
+
