@@ -1,23 +1,23 @@
 <?php  
 
-// $arr = [
-// 	'nama' 	=> ['Thoni', 'Andik', 'Wawan'],
-// 	'nilai'	=> [10,11,12],
-// 	'kelas'	=> ['A', 'B', 'C'],
-// 	'keterangan' => 'Ini adalah keterangan'
-// ];
+$arr = [
+	'nama' 	=> ['Thoni', 'Andik', 'Wawan'],
+	'nilai'	=> [10,11,12],
+	'kelas'	=> ['A', 'B', 'C'],
+	'keterangan' => 'Ini adalah keterangan'
+];
 
-// // untuk menampilkan semua array
-// // foreach ($arr as $index => $value) {
-// // 	echo $value . "\n";
-// // }
+// untuk menampilkan semua array
+foreach ($arr as $index => $value) {
+	echo $value . "\n";
+}
 
-// // untuk menampilkan semua array 'nilai'
-// $no = 1;
-// foreach ($arr['nilai'] as $index => $nomer) {
-// 	echo $no . ". " . $nomer . "\n";
-// 	$no++;
-// }
+// untuk menampilkan semua array 'nilai'
+$no = 1;
+foreach ($arr['nilai'] as $index => $nomer) {
+	echo $no . ". " . $nomer . "\n";
+	$no++;
+}
 
 /*
 
