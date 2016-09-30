@@ -1,0 +1,70 @@
+#10
+
+$arr = [
+	'nama' 			=> ['Thoni', 'Andik', 'Wawan'],
+	'nun'			=> [30, 28.5, 27],
+	'kelas'			=> ['A', 'B', 'C'],
+	'keterangan' 	=> 'Semua siswa dinyatakan lolos'
+];
+
+output :
+
+SMA NEGERI XXX Malang memiliki siswa sebagai berikut :
+
+1. Thoni
+2. Andik
+3. Wawan
+
+masing-masing mendapatkan nilai UN sebagai berikut :
+
+1. 30
+2. 28.5
+3. 27
+
+dengan demikian dapat disimpulkan bahwa Semua siswa dinyatakan lolos.
+
+1. Rizal
+2. Auwfar
+3. Mustofa
+4. Syamsul Huda
+
+
+#11
+
+$arr = [
+	'nama' 			=> ['Thoni', 'Andik', 'Wawan'],
+	'nun'			=> [30, 28.5, 27],
+	'kelas'			=> ['A', 'B', 'C'],
+	'keterangan' 	=> 'Semua siswa dinyatakan lolos'
+];
+
+output :
+
+Hasil Ujian Nasional SMA NEGERI XXX Malang adalah sebagai berikut :
+
+1. Nama 	: Thoni
+   Kelas 	: A
+   Nilai 	: 30
+2. Nama 	: Andik
+   Kelas 	: B
+   Nilai 	: 28.5
+3. Nama 	: Wawan
+   Kelas 	: C
+   Nilai 	: 27
+
+dengan demikian dapat disimpulkan bahwa Semua siswa dinyatakan lolos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
