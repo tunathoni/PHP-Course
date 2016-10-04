@@ -60,7 +60,10 @@ Buat function :
 	-> digunakan untuk menampilkan hasil akhir dari function kali()
 
 
-
+1. Auwfar
+2. Hafiz
+3. Rizal
+4. Syamsul Huda
 
 
 
