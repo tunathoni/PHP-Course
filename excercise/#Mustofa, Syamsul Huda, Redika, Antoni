@@ -49,7 +49,7 @@
 
 	  Buat function :
 
-	  - pecah_biodata(array)
+	  - makeSiswa(array)
 	  	memecah antara data siswa dan data sekolah
 
 	  	$siswa = [
@@ -64,6 +64,9 @@
 	  			75
 	  		]
 	  	];
+
+	  - makeSekolah(array)
+	  	memecah antara data siswa dan data sekolah
 
 	  	$sekolah = [
 	  		'alamat_sekolah' 	=> 'Jl. Sukoharjo 10 Malang',
