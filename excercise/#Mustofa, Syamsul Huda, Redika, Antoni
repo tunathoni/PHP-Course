@@ -50,7 +50,7 @@
 	  Buat function :
 
 	  - makeSiswa(array)
-	  	memecah antara data siswa dan data sekolah
+	  	memecah array menjadi data siswa 
 
 	  	$siswa = [
 	  		'siswa' => [
@@ -66,7 +66,7 @@
 	  	];
 
 	  - makeSekolah(array)
-	  	memecah antara data siswa dan data sekolah
+	  	memecah array menjadi data sekolah
 
 	  	$sekolah = [
 	  		'alamat_sekolah' 	=> 'Jl. Sukoharjo 10 Malang',
@@ -81,7 +81,7 @@
 	  		2. Andi - 70
 	  		3. Jono - 75
 
-	  	// Siswa
+	  	// Sekolah
 	  		1. Alamat_sekolah - Jl. Sukoharjo .....
 	  		2. no_telp - 0341-455....
 	  		
