@@ -19,6 +19,17 @@
 	- tampil(array)
 	  digunakan untuk menampilkan array menggunakan perulangan.
 
+	  Hasil akhir array adalah sbb :
+
+	  arr = [
+	  	'Budi',
+	  	'pergi',
+	  	'ke',
+	  	'sekolah',
+	  	'menggunakan',
+	  	'becak',
+	  ]
+
 # Soal Untuk Hafiz, Rizal, Auwfar
 	
 	Buat function yang isinya adalah mengubah array assosiatif
