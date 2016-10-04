@@ -1,0 +1,84 @@
+#11 
+
+Buat form input yang menampilkan :
+
+- Nama
+- Alamat
+- No. Telp
+- Jenis Kelamin 
+- Hoby
+
+output :
+
+Nama 			: .......
+Alamat 			: .......
+Nomor Telp 		: .......
+Jenis Kelamin 	: .......
+Hoby 			: .......
+
+1. Rizal
+2. Auwfar
+3. Tolchah
+4. Antoni
+
+#12
+
+Buat form inputan yang terdiri dari inputan :
+
+- nilai 1 s/d 10
+
+
+output =
+
+Rata-rata nilai keseluruhan : ...... 
+
+Rumus : (inputan 1 + inputan 2 + ..... 10) / 10
+
+1. Auwfar
+2. Rizal
+3. Antoni
+4. Redika
+
+
+#13
+
+Buat function :
+
+- tambah(nilai1, nilai2) -> mengembalikan nilai hasil penambahan
+
+- bagi(hasil_tambah) 
+	-> hasil tambah adalah nilai dari hasil penambahan pada function tambah()
+	-> di dalam function bagi melakukan fungsi hasil_tambah / 2
+	-> hasil dari pembagian tsb dikembalikan (retun hasil bagi)
+
+- kali(hasil_bagi)
+	-> hasil_bagi adalah nilai dari hasil pembagian pada function bagi()
+	-> di dalam function bagi melakukan fungsi hasil_bagi * 2
+	-> hasil dari perkalian tsb dikembalikan (retun hasil bagi)
+
+- tampil(hasil_kali)
+	-> digunakan untuk menampilkan hasil akhir dari function kali()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

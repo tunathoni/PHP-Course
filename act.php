@@ -1,12 +1,11 @@
 <?php 
 
-$post_value = $_POST['nama'];
+$input_val 	= $_POST;
 
-if ($post_value < 10) {
-	$input = $post_value + 10;
-} else {
-	$input = $post_value;
-}
+echo "<pre>";
+print_r ($input_val);
+echo "</pre>";
 
-echo $input;
+echo $input_val['nama'];
+
 ?>
