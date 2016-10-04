@@ -1,0 +1,40 @@
+# Soal untuk wawan, tolchah, faiq, Ikhsan, Dody
+	
+	Buat fungsi :
+
+	- kurang(nilai1, nilai2)
+	- tampil()
+
+	fungsi tampil adalah untuk menampilkan hasil pengurangan dalam fungsi kurang().
+
+# Soal untuk Mustofa, Syamsul Huda, Redika, Antoni
+
+	$kalimat = Budi pergi ke sekolah menggunakan becak
+
+	Buat fungsi :
+
+	- pecah_string(kalimat)
+	  digunakan untuk memecah kalimat ke dalam array. hasil dari array tersebut dikembalikan (return value).
+
+	- tampil(array)
+	  digunakan untuk menampilkan array menggunakan perulangan.
+
+# Soal Untuk Hafiz, Rizal, Auwfar
+	
+	Buat function yang isinya adalah mengubah array assosiatif
+
+
+	$arr = [
+		'Piring' => 'Budi',
+		'Sendok' => 'Seno',
+		'Gelas'  => 'Budi',
+	];
+
+	jadi nanti output yang harus keluar adalah sebagai berikut :
+
+	$arr_out = [
+		'Budi' => ['Piring', 'Gelas'],
+		'Seno' => ['Sendok'],
+	];
+
+	Gunakan perulangan di dalam function.
