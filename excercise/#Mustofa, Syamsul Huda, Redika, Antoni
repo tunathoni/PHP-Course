@@ -1,0 +1,25 @@
+# Soal untuk Mustofa, Syamsul Huda, Redika, Antoni
+
+	$kalimat = Budi pergi ke sekolah menggunakan becak
+
+	Buat fungsi :
+
+	- pecah_string(kalimat)
+	  digunakan untuk memecah kalimat ke dalam array. hasil dari array tersebut dikembalikan (return value).
+
+	- tampil(array)
+	  digunakan untuk menampilkan array menggunakan perulangan.
+
+	  Hasil akhir array adalah sbb :
+
+	  arr = [
+	  	'Budi',
+	  	'pergi',
+	  	'ke',
+	  	'sekolah',
+	  	'menggunakan',
+	  	'becak',
+	  ]
+
+	  1. Antoni
+	  2.

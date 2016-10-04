@@ -1,0 +1,19 @@
+# Soal Untuk Hafiz, Rizal, Auwfar
+	
+	Buat function yang isinya adalah mengubah array assosiatif
+
+
+	$arr = [
+		'Piring' => 'Budi',
+		'Sendok' => 'Seno',
+		'Gelas'  => 'Budi',
+	];
+
+	jadi nanti output yang harus keluar adalah sebagai berikut :
+
+	$arr_out = [
+		'Budi' => ['Piring', 'Gelas'],
+		'Seno' => ['Sendok'],
+	];
+
+	Gunakan perulangan di dalam function.
