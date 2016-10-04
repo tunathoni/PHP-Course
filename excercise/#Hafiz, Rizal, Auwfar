@@ -22,3 +22,36 @@
 
 	1. Rizal
 	2. Auwfar
+
+	#2 
+
+	$arr = [
+		'alamat' => [
+			'budi' 	=> 'kalimantan',
+			'thoni' => 'malang',
+			'jarwo' => 'surabaya',
+		],
+		'hobi' => [
+			'thoni' => 'sepak bola',
+			'jarwo' => 'nonton tv',
+			'budi' => 'baca buku',
+		]
+	];
+
+	jadi nanti output yang harus keluar adalah sebagai berikut :
+
+	$arr_out = [
+		'budi' => [
+			'alamat' => 'kalimantan',
+			'hobi'	=> 'baca buku'
+		],
+		'thoni' => [
+			'alamat' => 'malang',
+			'hobi'	=> 'sepak bola'
+		],
+		'jarwo' => [
+			'alamat' => 'surabaya',
+			'hobi'	=> 'nonton tv'
+		],
+	];
+
