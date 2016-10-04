@@ -12,3 +12,15 @@
 	1. Wawan
 	2. Iksan
 
+	#2
+	
+	Buat fungsi :
+
+	- huruf_besar(nilai1)
+		digunakan untuk membesarkan nilai1 menjadi huruf besar semua. kemudian hasil dari pengubahan huruf besar tersebut dikembalikan (return value)
+	- tampil()
+		fungsi tampil adalah untuk menampilkan hasil pembesaran string dalam fungsi huruf_besar().
+
+	1. 
+	2. 
+
