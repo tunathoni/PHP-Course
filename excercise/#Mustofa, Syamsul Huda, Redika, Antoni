@@ -1,4 +1,4 @@
-# Soal untuk Mustofa, Syamsul Huda, Redika, Antoni
+# Soal untuk Mustofa, Samsul Huda, Redika, Antony
 
 	#1
 
@@ -25,3 +25,50 @@
 
 	  1. Antoni
 	  2. Mustofa
+
+	  #2 
+
+	  $arr = [
+	  	[
+	  		'siswa' => [
+	  			'Budi',
+	  			'Andi',
+	  			'Jono',
+	  		],
+	  		'nilai' => [
+	  			60,
+	  			70,
+	  			75
+	  		]
+	  	],
+	  	[
+	  		'alamat_sekolah' 	=> 'Jl. Sukoharjo 10 Malang',
+	  		'no_telp' 			=> '0341-455886'
+	  	]
+	  ];
+
+	  Buat function :
+
+	  - pecah_biodata(array)
+	  	memecah antara data siswa dan data sekolah
+
+	  	$siswa = [
+	  		'siswa' => [
+	  			'Budi',
+	  			'Andi',
+	  			'Jono',
+	  		],
+	  		'nilai' => [
+	  			60,
+	  			70,
+	  			75
+	  		]
+	  	];
+
+	  	$sekolah = [
+	  		'alamat_sekolah' 	=> 'Jl. Sukoharjo 10 Malang',
+	  		'no_telp' 			=> '0341-455886'
+	  	];
+
+	  - tampil(siswa, sekolah)
+	  	digunakan untuk menampilkan data siswa dan data sekolah. gunakan perulangan.
