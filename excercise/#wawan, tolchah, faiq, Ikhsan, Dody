@@ -24,3 +24,19 @@
 	1. Dody
 	2. Ikhsan
 
+	#3
+
+	$arr = [
+		1, 2, 3, 4, 5
+	]; 
+
+	buat fungsi untuk menampilkan array diatas :
+
+	output :
+
+	 hasil - 1
+	 hasil - 2
+	 hasil - 3
+	 hasil - 4
+	 hasil - 5
+
