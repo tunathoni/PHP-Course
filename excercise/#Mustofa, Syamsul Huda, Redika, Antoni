@@ -86,6 +86,13 @@
 	  		2. no_telp - 0341-455....
 	  		
 	  	
+	  #3
+	  	$kalimat = Budi pergi ke sekolah menggunakan becak
+
+	  	buat function bernama ubahKalimat() yang isinya adalah mengubah kalimat tsb untuk setiap kata diawali huruf besar.
+
+	  	output :
+	  	Budi Pergi Ke Sekolah Menggunakan Becak
 
 
 
