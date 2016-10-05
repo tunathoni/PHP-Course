@@ -35,7 +35,7 @@
 			'thoni' => 'sepak bola',
 			'jarwo' => 'nonton tv',
 			'budi' => 'baca buku',
-		]
+		],
 	];
 
 	jadi nanti output yang harus keluar adalah sebagai berikut :
@@ -43,7 +43,7 @@
 	$arr_out = [
 		'budi' => [
 			'alamat' => 'kalimantan',
-			'hobi'	=> 'baca buku'
+			'hobi'	=> 'baca buku',
 		],
 		'thoni' => [
 			'alamat' => 'malang',
@@ -58,3 +58,45 @@
 	1. Rizal
 	2. Auwfar
 
+
+	#3
+
+	$arr = [
+		'alamat' => [
+			'budi' 	=> 'kalimantan',
+			'thoni' => 'malang',
+			'jarwo' => 'surabaya',
+		],
+		'hobi' => [
+			'thoni' => 'sepak bola',
+			'jarwo' => 'nonton tv',
+			'budi' => 'baca buku',
+		],
+		'nilai' => [
+			'thoni' => 80,
+			'jarwo' => 90,
+			'budi' => 40,
+		]
+	];
+
+	jadi nanti output yang harus keluar adalah sebagai berikut :
+
+	*untuk nilai rumusnya adalah n_o / sum(nilai)
+
+	$arr_out = [
+		'budi' => [
+			'alamat' => 'kalimantan',
+			'hobi'	=> 'baca buku',
+			'nilai'	=> '0.19',
+		],
+		'thoni' => [
+			'alamat' => 'malang',
+			'hobi'	=> 'sepak bola',
+			'nilai'	=> '0.38'
+		],
+		'jarwo' => [
+			'alamat' => 'surabaya',
+			'hobi'	=> 'nonton tv',
+			'nilai'	=> '0.42'
+		],
+	];
