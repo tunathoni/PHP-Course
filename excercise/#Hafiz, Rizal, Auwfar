@@ -100,3 +100,39 @@
 			'nilai'	=> '0.42'
 		],
 	];
+
+	1. Auwfar
+
+	#4
+
+	$arr = [
+		'a' =>[
+			'child' => []
+		],
+		'b' => [
+			'child' => []
+		]
+	];
+
+	buat fungsi yang otomatis mendeteksi bawah node diatas memiliki child atau tidak jika tidak punya anak maka secara otomatis menambahkan anak pada node tersebut.
+
+	contoh :
+
+	buatAnak();
+
+	- cek masing masing node, ternyata node a tidak memiliki anak, maka secara otomatis node a ditambahkan anak.
+
+	$arr = [
+		'a' =>[
+			'child' => [
+				'a' => [
+					'child' => []
+				]
+			]
+		],
+		'b' => [
+			'child' => []
+		]
+	];
+
+
