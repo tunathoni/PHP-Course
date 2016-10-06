@@ -72,3 +72,23 @@
 
 	 1. Dody
 	 2. Faiq
+
+	 #6
+	 	$arr = [
+		 	'nama' => [
+		 		'anto' => 90,
+		 		'jupri' => 80,
+		 		'andi' => 81
+		 	] 
+		 ];
+
+		 buat function untuk menampilkan nama dan nilai kemudian menampilkan rata-rata keseluruhan.
+
+		 output :
+
+		 1. Anto - 90
+		 2. Jupri - 80
+		 3. Andi - 81
+
+		 Rata-rata = 83.667
+
