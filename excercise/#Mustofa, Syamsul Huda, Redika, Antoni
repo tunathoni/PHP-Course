@@ -123,6 +123,17 @@
 	  	Umur = 24
 	  	Tahun = 1990
 
+	  	1. Samsul Huda
+	  	2. Antoni
+
+	  #6
+	  	$kalimat = 1990 budi malang 24;
+
+	  	buat fungsi penjumlahan dari kalimat diatas :
+
+	  	contoh : 
+
+	  	1990 + 24 = 2014
 
 
 
