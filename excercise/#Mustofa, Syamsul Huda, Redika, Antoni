@@ -97,6 +97,21 @@
 	  	1. Samsul Huda
 	  	2. Antoni
 
+	  #4
+	  	$kalimat = Budi pergi ke sekolah pukul 14
+
+	  	buat function yang digunakan untuk mengidentifikasi masing2 kata adalah huruf atau angka.
+
+	  	output :
+	  	Budi - bukan angka
+	  	Pergi - bukan angka
+	  	Ke - bukan angka
+	  	Sekolah - bukan angka
+	  	pukul - bukan angka
+	  	14 - angka
+
+	  	1. 
+	  	2. 
 
 
 
