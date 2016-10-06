@@ -161,4 +161,27 @@
 	1. Rizal
 	2. Auwfar
 
+	#5
+
+	$arr = [
+		'badak' => 1,
+		'singa' => 2,
+		'kuda' => 3,
+		'kucing' => 4,
+		'cacing' => 5,
+		'lalat' => 6,
+	]
+
+	Buat fungsi search() untuk memfilter inputan : misal
+
+	input = ku
+
+	output = 
+
+	1. kuda - 3
+	2. kucing - 4
+
+	1. 
+	2. 
+
 
