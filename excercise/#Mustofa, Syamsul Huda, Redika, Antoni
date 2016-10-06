@@ -110,8 +110,18 @@
 	  	pukul - bukan angka
 	  	14 - angka
 
-	  	1. 
-	  	2. 
+	  	1. Antoni
+	  	2. Samsul Huda
+
+	  #5
+	  	$kalimat = 1990 budi malang 24;
+
+	  	buat fungsi untuk mendeteksi umur dan tahun :
+
+	  	output :
+
+	  	Umur = 24
+	  	Tahun = 1990
 
 
 
