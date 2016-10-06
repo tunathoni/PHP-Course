@@ -136,4 +136,26 @@
 		]
 	];
 
+	#5
+
+	$arr = [
+		'badak',
+		'singa',
+		'kuda',
+		'kucing',
+		'cacing',
+		'lalat',
+	]
+
+	Buat fungsi search() untuk memfilter inputan : misal
+
+	input = ku
+
+	output = 
+
+	$arr = [
+		'kuda',
+		'kucing',
+	]
+
 
