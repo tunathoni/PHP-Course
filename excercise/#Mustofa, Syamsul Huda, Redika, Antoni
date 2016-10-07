@@ -138,6 +138,19 @@
 	  	1. Samsul huda
 	  	2. Mustofa
 
+	  #7
+	  	buat class mahasiswa() yang memiliki function :
+	  	- demo()
+	  	- kuliah()
+	  	- gabungAktivitas();
+	  	- tampil();
+
+	  	output :
+
+	  	tampil('Hani');
+	  	 -menjalankan function gabungAktivitas()
+
+	  	 Hani sedang demo dan kuliah
 
 
 
