@@ -105,3 +105,22 @@
 
 	 	> tampil ('Wawan');
 	 	  Wawan sedang belajar Wawan sedang bermain.
+
+	 	1. Faiq
+	 	2. Dody
+
+	 #8
+	 	Buat class perpustakaan() yang memiliki function :
+	 	- tataBuku()
+	 		digunakan untuk memisah2 buku menjadi array
+	 	- tampil()
+	 		digunakan untuk menampilkan buku yang sudah menjadi array menggunakan perulangan
+
+	 	output : 
+
+	 	$kalimat = 'buku1 buku2 buku3 buku4';
+
+	 	tataBuku($kalimat);
+	 	tampil() --> ['buku1', 'buku2', 'buku3', 'buku4']
+
+

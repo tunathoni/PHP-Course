@@ -24,8 +24,41 @@ class Hewan
 
 }
 
-$hewan = new Hewan('Bebek');
+// $hewan = new Hewan('Bebek');
 
-$hewan->tampil('Bebek');
+// $hewan->tampil('Bebek');
+
+/**
+* 
+*/
+class Kendaraan 
+{
+	
+	function __construct()
+	{
+		$this->bensin = 10;
+	}
+
+	function jalan()
+	{
+		$this->bensin--;
+
+		echo "Mobil berjalan, bensin tinggal = " . $this->bensin . "\n";
+	}
+
+	function isiBensin()
+	{
+		$this->bensin+=2;
+
+		echo "Mobil isi bensin tinggal = " . $this->bensin . "\n";
+	}
+}
+
+$mobil = new Kendaraan();
+
+$mobil->jalan();
+$mobil->jalan();
+$mobil->jalan();
+$mobil->isiBensin();
 
 ?>
