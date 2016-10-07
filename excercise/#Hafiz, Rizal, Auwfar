@@ -184,4 +184,17 @@
 	1. Auwfar
 	2. Rizal
 
+	#6
+
+	buat class Kendaraan() yang memiliki function :
+	-isiBensin()
+	-jalan()
+
+	dengan persyaratan memiliki nilai bensin = 10, ketika jalan(), bensin secara otomatis berkurang 1, dan ketika isiBensin() secara otomatis bertambah 2;
+
+	output :
+
+	jalan() --> bensin tinggal 9
+	jalan() --> bensin tinggal 8
+	isiBensin() --> bensin diisi jadi 10
 
