@@ -155,5 +155,26 @@
 	  	 1. Antoni
 	  	 2. Mustofa
 
+	  #8
+	  	buat class Nilai() yang memiliki function :
+	  	- rekap()
+	  		mengubah kalimat menjadi array
+	  	- rataRata()
+	  		menghitung rata-rata array yang sudah direkap
+	  	- tampil()
+	  		menampilkan hasil rata-rata
+
+	  	output : 
+
+	  	$kalimat = 'Andi 10 budi 23 jono 31';
+	  	rekap() --> [
+	  		'andi' => 10,
+	  		'budi' => 23,
+	  		'jono' => 31,
+	  	] 
+
+	  	rataRata() --> dirata2 nilainya
+
+	  	tampil() --> hasil rata2
 
 
