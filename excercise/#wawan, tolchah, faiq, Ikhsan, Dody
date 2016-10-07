@@ -92,3 +92,16 @@
 
 		 Rata-rata = 83.667
 
+		 1. Wawan
+		 2. Dody
+
+	 #7 
+	 	Buat class Siswa yang memiliku function :
+	 	- belajar()
+	 	- bermain()
+	 	- tampil()
+
+	 	output :
+
+	 	> tampil ('Wawan');
+	 	  Wawan sedang belajar Wawan sedang bermain.
