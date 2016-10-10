@@ -256,4 +256,18 @@
 
 	Saldo : 50000
 
+	List buku :
+	1. Judul 	: Belajar PHP
+	   Jumlah 	: 99
+	   Harga 	: 250000
+	2. Judul 	: Belajar HTML
+	   Jumlah 	: 100
+	   Harga 	: 75000
+	3. Judul 	: Seminggu belajar codeigniter
+	   Jumlah 	: 50
+	   Harga 	: 50000
+
+	Pilih buku yang dibeli :
+	 dst
+	  
 	source : http://php.net/manual/en/function.readline.php
