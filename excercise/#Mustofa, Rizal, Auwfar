@@ -201,7 +201,7 @@
 	1. Rizal
 	2. Auwfar
 
-	#7
+	#7 
 
 	buat class ATM yang memiliki function :
 
@@ -214,3 +214,46 @@
 	- cekSaldo()
 		untuk menampilkan sisa saldo
 
+	1. Auwfar
+	2. Rizal
+
+	#8
+	
+	masih berhubungan dengan soal nomor 7
+
+	$buku = [
+		[
+			'nama' 	=> 'Belajar PHP',
+			'stok' 	=> 100,
+			'harga' => 250000,
+		],
+		[
+			'nama' 	=> 'Belajar HTML',
+			'stok' 	=> 100,
+			'harga' => 75000,
+		],
+		[
+			'nama' 	=> 'Seminggu belajar codeigniter',
+			'stok' 	=> 50,
+			'harga' => 50000,
+		],
+	];
+
+	output :
+
+	List buku :
+	1. Judul 	: Belajar PHP
+	   Jumlah 	: 100
+	   Harga 	: 250000
+	2. Judul 	: Belajar HTML
+	   Jumlah 	: 100
+	   Harga 	: 75000
+	3. Judul 	: Seminggu belajar codeigniter
+	   Jumlah 	: 50
+	   Harga 	: 50000
+
+	Pilih buku yang dibeli : 1
+
+	Saldo : 50000
+
+	source : http://php.net/manual/en/function.readline.php
