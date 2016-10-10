@@ -177,4 +177,28 @@
 
 	  	tampil() --> hasil rata2
 
+	  #9
+	  	$partai = [
+	  		'pdi' => 0,
+	  		'pkb' => 0,
+	  		'ppp' => 0,
+	  		'hanura' => 0,
+	  		'golkar' => 0,
+	  	]
+	  	buat class partai() yang memiliki function :
+
+	  	- voting()
+	  		function ini untuk menambahkan polling untuk masing2 partai yang di voting
+	  	- hasil()
+	  		menampilkan hasil voting partai
+
+	  	output :
+
+	  	voting('pdi') ---> $partai = [
+	  		'pdi' => 1,
+	  		'pkb' => 0,
+	  		'ppp' => 0,
+	  		'hanura' => 0,
+	  		'golkar' => 0,
+	  	]
 
