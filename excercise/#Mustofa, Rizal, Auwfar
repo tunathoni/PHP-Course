@@ -203,5 +203,14 @@
 
 	#7
 
-	
+	buat class ATM yang memiliki function :
+
+	- deposit()
+		untuk mendefinisikan saldo awal
+	- debit()
+		untuk mengurangi saldo
+	- kredit()
+		untuk menambah saldo
+	- cekSaldo()
+		untuk menampilkan sisa saldo
 
