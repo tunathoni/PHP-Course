@@ -123,4 +123,24 @@
 	 	tataBuku($kalimat);
 	 	tampil() --> ['buku1', 'buku2', 'buku3', 'buku4']
 
+	 	1. Dody
+	 	2. 
+
+	 #9
+	 	Buat class rumah() yang memiliki function :
+	 	- bukaPintu()
+	 		function ini mengeluarkan keterangan "Sedang membuka pintu"
+	 	- mencuci()
+	 		function ini mengeluarkan keterangan "Sedang mencuci"
+	 	- mengepel()
+	 		function ini mengeluarkan keterangan "Sedang mengepel"
+	 	- bersihBersih()
+	 		function ini menggabungkan 3 function diatas.
+
+	 	output :
+	 	 bersihBersih('andi')
+	 	  andi Sedang membuka pintu Sedang mencuci Sedang mengepel
+
+
+
 
