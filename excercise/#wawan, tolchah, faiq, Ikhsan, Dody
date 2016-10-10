@@ -145,6 +145,16 @@
 	 	1. Dody
 	 	2. Iksan
 
+	 #10
+	 	Buat class Kendi() yang memiliki function :
 
+	 	- isiAir()
+	 	- lihatIsi()
+
+	 	output :
+
+	 	isiAir(10)
+	 	isiAir(2)
+	 	lihatIsi() --> isi air = 12
 
 
