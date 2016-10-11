@@ -169,5 +169,6 @@
 	 	- class Pedet
 	 		> minumSusu()
 
-	 	
+	 #12
+	 	buat interface Resep, class Rawon, Soto dan Masakan, untuk class masakan merupakan class yang menjembatani antara class Rawon, Soto dengan Resep
 
