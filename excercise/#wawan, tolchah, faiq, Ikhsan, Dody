@@ -157,4 +157,17 @@
 	 	isiAir(2)
 	 	lihatIsi() --> isi air = 12
 
+	 #11 
+	 	Buat class Hewan, Sapi, dan Pedet dimana Hewan merupakan parent class dari Sapi, dan Sapi merupakan parent class dari Pedet. 
+
+	 	- class Hewan
+	 		> jalan()
+	 		> nafas()
+	 	- class Sapi
+	 		> kurban()
+	 		> makanRumput()
+	 	- class Pedet
+	 		> minumSusu()
+
+	 	
 
