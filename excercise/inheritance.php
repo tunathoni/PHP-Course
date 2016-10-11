@@ -1,14 +1,6 @@
 <?php  
 
-class Pegawai
-{
-	
-	function __construct()
-	{
-		$this->gajiPokok = 1500000;
-	}
-
-}
+include 'pegawai.php';
 
 class Dosen extends Pegawai
 {
@@ -48,6 +40,9 @@ class Staff extends Pegawai
 
 	public function gajiStaff($pertemuan='')
 	{
+		if ($pertemuan < 0) {
+			throw new Exception("Harus lebih dari 0");
+		}
 		$total = ($pertemuan * 5000);
 
 		$this->gajiStaff += $total ;
@@ -66,7 +61,12 @@ $dosen->gajiDosen(2);
 $dosen->getGajiDosen();
 
 $staff = new Staff();
-$staff->gajiStaff(2);
+try {
+    $staff->gajiStaff(-1);
+} catch (Exception $e) {
+    echo 'Caught exception: ',  $e->getMessage(), "\n";
+}
+
 $staff->getGajiStaff();
 
 ?>
