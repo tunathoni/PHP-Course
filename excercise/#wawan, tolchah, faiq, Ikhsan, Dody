@@ -172,3 +172,5 @@
 	 #12
 	 	buat interface Resep, class Rawon, Soto dan Masakan, untuk class masakan merupakan class yang menjembatani antara class Rawon, Soto dengan Resep
 
+	 #13
+	 	buat interface Pakaian, class Baju, Celana, CaraPakai, adapun class CaraPakai adalah class yang menjembatani antara class Baju dan class Celana dengan interface Pakaian.
