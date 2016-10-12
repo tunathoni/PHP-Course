@@ -2,6 +2,8 @@
 
 class Hewan
 {
+	private static $kaki = "Kaki hewan";
+
 	public function jalan($hewan = '')
 	{
 		echo $hewan . " berjalan \n";
@@ -9,7 +11,15 @@ class Hewan
 
 	public function makan($hewan='')
 	{
-		echo $hewan . " makan \n";
+		// closure
+		$greet = function($a, $b)
+		{
+		    return ($a + $b);
+		};
+
+		$a = 1 + 2;
+		
+		echo $hewan . " makan " . self::$kaki . $greet(1,2) . " \n";
 	}
 
 }
@@ -29,11 +39,11 @@ class Itik extends Bebek
 }
 
 $bebek = new Bebek();
-$bebek->jalan('Bebek');
+// $bebek->jalan('Bebek');
 $bebek->makan('Bebek');
 
-$itik = new Itik();
-$itik->terbang();
-$itik->jalan('Itik');
+// $itik = new Itik();
+// $itik->terbang();
+// $itik->jalan('Itik');
 
 ?>
