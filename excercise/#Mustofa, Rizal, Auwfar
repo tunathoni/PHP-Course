@@ -294,3 +294,13 @@
 	1. Rizal
 	2. Auwfar
 
+	#11
+	Ada 3 club sepakbola, masing2 memiliki yel2 yang berbeda :
+	- Arema
+		"salam satu jiwa"
+	- Persebaya
+		"bondo nekat"
+	- Persija
+		"Jakmania"
+	buat sebuah class yang mengidentifikasi secara otomatis yel-yel tersebut berasal dari team yang bersangkutan. Terserah menggunakan extends atau implements. 
+
