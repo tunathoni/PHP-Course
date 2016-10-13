@@ -6,7 +6,7 @@
 class Dog 
 {
 	
-	public static function says()
+	public function says()
 	{
 		echo "Gug \n";
 	}
