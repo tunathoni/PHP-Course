@@ -7,6 +7,11 @@ class Cat
 	{
 		echo "Meoww \n";
 	}
+
+	public static function eat()
+	{
+		echo "Cat is eat \n";
+	}
 }
 
 ?>

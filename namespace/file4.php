@@ -15,6 +15,7 @@
  $anjing 	= new bro\Dog;
 
  echo $cat->says();
+ echo $cat::eat();
  echo $anjing->says();
  echo animate\Animal::breathe();
 
