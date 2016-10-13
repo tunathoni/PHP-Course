@@ -259,4 +259,7 @@
 			"bondo nekat"
 		- Persija
 			"Jakmania"
-		buat sebuah class yang mengidentifikasi secara otomatis yel-yel tersebut berasal dari team yang bersangkutan. Terserah menggunakan extends atau implements. 
+		buat sebuah class yang mengidentifikasi secara otomatis yel-yel tersebut berasal dari team yang bersangkutan. Terserah menggunakan extends atau implements.
+
+	  #14
+	  	Buat class untuk membandingkan like dari beberapa media sosial diantaranya facebook, twitter, dan googleplus. perbandingan tersebut akan memunculkan media sosial akun mana yang paling populer. Buat menggunakan interface dan class. Gunakan namespace 
