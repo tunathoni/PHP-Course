@@ -2,7 +2,9 @@
 
 include 'anjing.php';
 
-$anjing = new asu\Anjing;
+use asu\Anjing as Anjing;
+
+$anjing = new Anjing;
 $anjing->jalan('Anjing');
 $anjing->lari('Anjing');
 
