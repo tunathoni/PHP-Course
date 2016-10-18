@@ -43,7 +43,14 @@ class Welcome extends CI_Controller {
 	{
 		$param = $this->input->post();
 
-		print_r($param);
+		if ($param['nama'] == 'thoni') {
+			redirect('welcome/formtambah');
+		}else{
+			echo "<pre>";
+			print_r ($param);
+			echo "</pre>";
+		}
+		
 	}
 
 }
