@@ -21,16 +21,29 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('welcome_message');
-
 	}
 
-	public function testing($value='')
+	public function testing($a, $b)
 	{
 		$nama 				= "Thoni";
 		$data['nama'] 		= $nama;
+		$data['param'] 		= $a . $b;
 		$data['nama_akhir'] = 'Ganteng';
+		$data['data_siswa'] = ['Ganteng', 'oke'];
 
 		$this->load->view('testingbro', $data);
+	}
+
+	public function formTambah()
+	{
+		$this->load->view('form_tambah');
+	}
+
+	public function aksiSimpan()
+	{
+		$param = $this->input->post();
+
+		print_r($param);
 	}
 
 }
