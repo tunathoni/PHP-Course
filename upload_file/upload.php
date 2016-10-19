@@ -6,7 +6,9 @@ echo "</pre>";
 
 $uploaddir = 'file/';
 
-$uploadfile = $uploaddir . $_FILES['file_upload']['name'];
+$namafile = date('Ymdhms') . '_wawan.png';
+
+$uploadfile = $uploaddir . $namafile;
 
 echo '<pre>';
 
@@ -15,6 +17,10 @@ if (move_uploaded_file($_FILES['file_upload']['tmp_name'], $uploadfile)) {
 } else {
     echo "Possible file upload attack!\n";
 }
+
+// untuk menghapus file
+
+// unlink($uploadfile);
 
 
 ?>
