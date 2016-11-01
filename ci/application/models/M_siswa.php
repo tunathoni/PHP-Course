@@ -21,10 +21,32 @@ class M_siswa extends CI_Model {
 	{
 		$object = [
 			'nama' 		=> $param['nama'],
-			'alamat' 	=> $param['alamat'],
+			'alamat' 	=> $param['alamat']
 		];
 
 		$this->db->insert('siswa', $object);
+
+		return $this->db->affected_rows();
+	}
+
+	public function detailSiswa($id)
+	{
+		$this->db->where('id', $id);
+		$data = $this->db->get('siswa');
+
+		return $data->row();
+	}
+
+	public function updateSiswa($param='')
+	{
+		$object = [
+			'nama'		=> $param['nama'],
+			'alamat'	=> $param['alamat'],
+		];
+
+		$this->db->where('id', $param['id']);
+
+		$this->db->update('siswa', $object);
 
 		return $this->db->affected_rows();
 	}

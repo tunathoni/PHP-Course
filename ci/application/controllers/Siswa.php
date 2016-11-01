@@ -70,6 +70,28 @@ class Siswa extends CI_Controller {
 		}
 		
 	}
+
+	public function form_update($id)
+	{
+		$siswa 			= $this->M_siswa->detailSiswa($id);
+
+		$data['siswa'] 	= $siswa;
+
+		$this->load->view('form_update_siswa', $data);
+	}
+
+	public function actSaveUpdate()
+	{
+		$param = $this->input->get();
+
+		$proses_simpan = $this->M_siswa->updateSiswa($param);
+
+		if ($proses_simpan >= 0) {
+			redirect('siswa');
+		} else {
+			redirect('siswa/form');
+		}
+	}
 }
 
 /* End of file Siswa.php */

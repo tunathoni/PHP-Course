@@ -19,6 +19,9 @@ Data Siswa:
 			<td>
 				<b>alamat</b>
 			</td>
+			<td>
+				<b>aksi</b>
+			</td>
 		</tr>
 	</thead>
 	<tbody>
@@ -32,6 +35,11 @@ Data Siswa:
 				</td>
 				<td>
 					<?=$value->alamat?>
+				</td>
+				<td>
+					<a href="<?=site_url('siswa/form_update/'.$value->id)?>">
+						update
+					</a>
 				</td>
 			</tr>	
 		<?php endforeach ?>
