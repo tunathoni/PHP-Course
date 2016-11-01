@@ -1,5 +1,4 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Siswa extends CI_Controller {
 
@@ -20,6 +19,7 @@ class Siswa extends CI_Controller {
 		}
 
 		$data['siswa'] = $this->M_siswa->getList($limit, $offset);
+
 
 		$this->load->library('pagination');
 		
@@ -52,6 +52,24 @@ class Siswa extends CI_Controller {
 		$this->load->view('siswa', $data);
 	}
 
+	public function form()
+	{
+		$this->load->view('form_siswa');
+	}
+
+	public function actSave()
+	{
+		$param = $this->input->get();
+
+		$proses_simpan = $this->M_siswa->simpanSiswa($param);
+
+		if ($proses_simpan >= 0) {
+			redirect('siswa');
+		} else {
+			redirect('siswa/form');
+		}
+		
+	}
 }
 
 /* End of file Siswa.php */

@@ -6,6 +6,7 @@
 <body>
 Data Siswa:
 
+<a href="<?=site_url('siswa/form')?>">Tambah Siswa</a>
 <table border="1">
 	<thead>
 		<tr>
@@ -13,10 +14,10 @@ Data Siswa:
 			  <b>ID</b>
 			</td>
 			<td>
-			  <b>title</b>
+			  <b>nama</b>
 			</td>
 			<td>
-				<b>recipientList</b>
+				<b>alamat</b>
 			</td>
 		</tr>
 	</thead>
@@ -27,10 +28,10 @@ Data Siswa:
 					<?=$value->id?>
 				</td>
 				<td>
-					<?=$value->title?>
+					<?=$value->nama?>
 				</td>
 				<td>
-					<?=$value->recipientList?>
+					<?=$value->alamat?>
 				</td>
 			</tr>	
 		<?php endforeach ?>

@@ -5,16 +5,28 @@ class M_siswa extends CI_Model {
 
 	public function getList($limit, $offset)
 	{
-		$data = $this->db->get('campaign', $limit, $offset ); 
+		$data = $this->db->get('siswa', $limit, $offset ); 
 		
 		return $data->result();
 	}	
 
 	public function totalRows()
 	{
-		$data = $this->db->get('campaign'); 
+		$data = $this->db->get('siswa'); 
 		
 		return $data->num_rows();
+	}
+
+	public function simpanSiswa($param='')
+	{
+		$object = [
+			'nama' 		=> $param['nama'],
+			'alamat' 	=> $param['alamat'],
+		];
+
+		$this->db->insert('siswa', $object);
+
+		return $this->db->affected_rows();
 	}
 
 }
