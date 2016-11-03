@@ -4,9 +4,14 @@
 	<title></title>
 </head>
 <body>
+
+Selamat Datang : <?=$user->nama_user?>
+<br>
 Data Siswa:
 
 <a href="<?=site_url('siswa/form')?>">Tambah Siswa</a>
+
+<a href="<?=site_url('login/aksi_logout')?>">Log Out</a>
 <table border="1">
 	<thead>
 		<tr>

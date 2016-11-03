@@ -6,10 +6,19 @@ class Siswa extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->model('M_siswa');
+
+		// UNTUK MENGECEK APAKAH USER SUDAH LOGIN APA BELUM
+		$this->user = $this->session->userdata('user_sesssion');
+
+		if (count($this->user) == 0) {
+			redirect('login');
+		}
+
 	}
 
 	public function index($halaman = '')
 	{
+		
 		$limit = 10;
 
 		if ($halaman != '') {
@@ -18,8 +27,8 @@ class Siswa extends CI_Controller {
 			$offset = 0;
 		}
 
-		$data['siswa'] = $this->M_siswa->getList($limit, $offset);
-
+		$data['siswa'] 	= $this->M_siswa->getList($limit, $offset);
+		$data['user']	= $this->user;
 
 		$this->load->library('pagination');
 		
