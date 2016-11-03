@@ -92,6 +92,38 @@ class Siswa extends CI_Controller {
 			redirect('siswa/form');
 		}
 	}
+
+	public function cobaSession()
+	{
+		$arr = [
+			'id' => 1,
+			'nama' => 'Thoni',
+			'alamat' => 'Jl Suhat',
+		];
+
+		$this->session->set_userdata('userSession', $arr);
+		$this->session->set_userdata('nama_session', $arr['nama']);
+	}
+
+	public function lihatSession()
+	{
+		// untuk mengambil semua session
+		$sesi = $this->session->all_userdata();
+
+		// untuk mengambil salah satu session yang sudah dibuat
+		$nama = $this->session->userdata('nama_session');
+
+		echo "<pre>";
+		print_r ($sesi);
+		echo "</pre>";
+
+		echo $nama;
+	}
+
+	public function hapusSession()
+	{
+		$this->session->sess_destroy();
+	}
 }
 
 /* End of file Siswa.php */
