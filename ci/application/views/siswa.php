@@ -5,7 +5,7 @@
 </head>
 <body>
 
-Selamat Datang : <?=$user->nama_user?>
+Selamat Datang : <?=$this->user->nama_user?>
 <br>
 Data Siswa:
 

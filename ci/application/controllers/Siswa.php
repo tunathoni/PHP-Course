@@ -28,8 +28,7 @@ class Siswa extends CI_Controller {
 		}
 
 		$data['siswa'] 	= $this->M_siswa->getList($limit, $offset);
-		$data['user']	= $this->user;
-
+		
 		$this->load->library('pagination');
 		
 		$config['base_url'] = base_url('siswa/index/');
