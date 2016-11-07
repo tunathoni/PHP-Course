@@ -67,16 +67,28 @@ class Siswa extends CI_Controller {
 
 	public function actSave()
 	{
-		$param = $this->input->get();
-
-		$proses_simpan = $this->M_siswa->simpanSiswa($param);
-
-		if ($proses_simpan >= 0) {
-			redirect('siswa');
-		} else {
-			redirect('siswa/form');
-		}
 		
+		$this->form_validation->set_rules('nama', 'Nama', 'required');
+		$this->form_validation->set_rules('alamat', 'Alamat', 'required');
+
+		if ($this->form_validation->run() == TRUE)
+        {
+        	$param = $this->input->post();
+
+			$proses_simpan = $this->M_siswa->simpanSiswa($param);
+
+			if ($proses_simpan >= 0) {
+				redirect('siswa');
+			} else {
+				redirect('siswa/form');
+			}
+        }
+        else
+        {
+        	$msg = validation_errors();
+        	echo 'Terjadi kesalahan = ' . $msg;    
+        }
+
 	}
 
 	public function form_update($id)
