@@ -19,13 +19,17 @@ class M_siswa extends CI_Model {
 
 	public function simpanSiswa($param='')
 	{
-		$object = [
-			'nama' 		=> $param['nama'],
-			'alamat' 	=> $param['alamat']
-		];
-
-		$this->db->insert('siswa', $object);
-
+		$object = [];
+		
+		for ($i = 0 ; $i< count($param['nama']); $i++) {
+			$object[] = [
+				'nama' 		=> $param['nama'][$i],
+				'alamat' 	=> $param['alamat'][$i]
+			];
+		}
+		
+		$this->db->insert_batch('siswa', $object);
+		
 		return $this->db->affected_rows();
 	}
 

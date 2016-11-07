@@ -68,12 +68,13 @@ class Siswa extends CI_Controller {
 	public function actSave()
 	{
 		
-		$this->form_validation->set_rules('nama', 'Nama', 'required');
-		$this->form_validation->set_rules('alamat', 'Alamat', 'required');
+		$this->form_validation->set_rules('nama[]', 'Nama', 'required');
+		$this->form_validation->set_rules('alamat[]', 'Alamat', 'required');
 
 		if ($this->form_validation->run() == FALSE)
         {
         	$msg = validation_errors();
+        	
         	$this->session->set_flashdata('alert_msg', $msg);
 
         	redirect('siswa/form');
@@ -82,7 +83,7 @@ class Siswa extends CI_Controller {
         {
             $param = $this->input->post();
 
-			$proses_simpan = $this->M_siswa->simpanSiswa($param);
+            $proses_simpan = $this->M_siswa->simpanSiswa($param);
 
 			if ($proses_simpan >= 0) {
 				redirect('siswa');
@@ -145,6 +146,43 @@ class Siswa extends CI_Controller {
 	public function hapusSession()
 	{
 		$this->session->sess_destroy();
+	}
+
+	public function upload_file()
+	{
+		$this->load->view('form_upload');
+	}
+
+	public function act_upload()
+	{
+		echo "<pre>";
+		print_r ($_FILES);
+		echo "</pre>";
+
+		$path = './assets/file/';
+
+		$config['upload_path'] = $path;
+		$config['allowed_types'] = 'jpg|png';
+		// $config['max_size']  = '100';  // dalam ukuran KB
+		// $config['max_width']  = '1024'; // dalam ukuran pixel
+		// $config['max_height']  = '768'; // dalam ukuran pixel
+		
+		$this->load->library('upload', $config);
+		
+		if ( ! $this->upload->do_upload('file_upload')){
+			$error = array('error' => $this->upload->display_errors());
+
+			echo "<pre>";
+			print_r ($error);
+			echo "</pre>";
+		}
+		else{
+			$data = array('upload_data' => $this->upload->data());
+			echo "success";
+			echo "<pre>";
+			print_r ($data);
+			echo "</pre>";
+		}
 	}
 }
 
