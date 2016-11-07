@@ -71,9 +71,16 @@ class Siswa extends CI_Controller {
 		$this->form_validation->set_rules('nama', 'Nama', 'required');
 		$this->form_validation->set_rules('alamat', 'Alamat', 'required');
 
-		if ($this->form_validation->run() == TRUE)
+		if ($this->form_validation->run() == FALSE)
         {
-        	$param = $this->input->post();
+        	$msg = validation_errors();
+        	$this->session->set_flashdata('alert_msg', $msg);
+
+        	redirect('siswa/form');
+        }
+        else
+        {
+            $param = $this->input->post();
 
 			$proses_simpan = $this->M_siswa->simpanSiswa($param);
 
@@ -82,11 +89,6 @@ class Siswa extends CI_Controller {
 			} else {
 				redirect('siswa/form');
 			}
-        }
-        else
-        {
-        	$msg = validation_errors();
-        	echo 'Terjadi kesalahan = ' . $msg;    
         }
 
 	}

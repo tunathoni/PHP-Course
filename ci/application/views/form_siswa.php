@@ -5,6 +5,7 @@
 </head>
 <body>
 	<?php echo $this->session->flashdata('alert_msg'); ?>
+	
 	<form action="<?=site_url('siswa/actSave')?>" method="POST">
 		<label>Nama</label>
 		<input type="text" name="nama">
