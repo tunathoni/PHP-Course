@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class M_siswa extends CI_Model {
+class M_siswa extends Auth_Model {
 
 	public function getList($limit, $offset)
 	{

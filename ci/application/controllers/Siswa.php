@@ -1,19 +1,11 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Siswa extends CI_Controller {
+class Siswa extends Auth_Controller {
 
 	public function __construct()
 	{
 		parent::__construct();
 		$this->load->model('M_siswa');
-
-		// UNTUK MENGECEK APAKAH USER SUDAH LOGIN APA BELUM
-		$this->user = $this->session->userdata('user_sesssion');
-
-		if (count($this->user) == 0) {
-			redirect('login');
-		}
-
 	}
 
 	public function index($halaman = '')
