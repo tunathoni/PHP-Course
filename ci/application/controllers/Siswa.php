@@ -67,7 +67,7 @@ class Siswa extends Auth_Controller {
         {
         	$msg = validation_errors();
         	
-        	$this->session->set_flashdata('alert_msg', $msg);
+        	$this->session->set_flashdata('alert_msg', err_message($msg));
 
         	redirect('siswa/form');
         }
@@ -78,6 +78,11 @@ class Siswa extends Auth_Controller {
             $proses_simpan = $this->M_siswa->simpanSiswa($param);
 
 			if ($proses_simpan >= 0) {
+				
+				$msg = "Data berhasil dimasukkan";
+
+				$this->session->set_flashdata('alert_msg', succ_message($msg));
+
 				redirect('siswa');
 			} else {
 				redirect('siswa/form');

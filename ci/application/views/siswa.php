@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title><?=get_nama_web()?></title>
 </head>
 <body>
 
+<?=$this->session->flashdata('alert_msg');?>
+<br>
 Selamat Datang : <?=$this->user->nama_user?>
 <br>
 Data Siswa:
@@ -12,6 +14,8 @@ Data Siswa:
 <a href="<?=site_url('siswa/form')?>">Tambah Siswa</a>
 
 <a href="<?=site_url('login/aksi_logout')?>">Log Out</a>
+
+
 <table border="1">
 	<thead>
 		<tr>
