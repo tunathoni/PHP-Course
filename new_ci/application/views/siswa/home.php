@@ -13,6 +13,7 @@
           <th>No</th>
           <th>Nama</th>
           <th>Alamat</th>
+          <th>Kelas</th>
           <th>Aksi</th>
         </tr>
       </thead>
@@ -22,6 +23,7 @@
             <td><?=$value->id?></td>
             <td><?=$value->nama?></td>
             <td><?=$value->alamat?></td>
+            <td><?=$value->nama_kelas?></td>
             <td>
             <a href="<?=site_url('siswa/edit/' . $value->id)?>" class="btn btn-info">Edit</a>
             <a href="<?=site_url('siswa/hapus/' . $value->id)?>" class="btn btn-danger" onclick = "return confirm('Apakah anda yakin ingin menghapus data ini ?');">

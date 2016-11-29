@@ -17,6 +17,17 @@
 	    </div>
 	  </div>
 	  <div class="form-group">
+	    <label for="inputPassword3" class="col-sm-2 control-label">Kelas</label>
+	    <div class="col-sm-10">
+	      <select class="form-control" name="id_kelas">
+	      	<option value="">-- Pilih Kelas --</option>
+	      	<?php foreach ($kelas as $key => $value): ?>
+	      		<option value="<?=$value->id_kelas?>"><?=$value->nama_kelas?></option>
+	      	<?php endforeach ?>
+	      </select>
+	    </div>
+	  </div>
+	  <div class="form-group">
 	    <div class="col-sm-offset-2 col-sm-10">
 	      <a href="<?=site_url('siswa')?>" class="btn btn-default">Kembali</a>
 	      <button type="submit" class="btn btn-success">Simpan</button>

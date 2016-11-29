@@ -5,7 +5,11 @@ class M_siswa extends CI_Model {
 
 	public function getSiswa()
 	{
-		$data = $this->db->get('siswa');
+		$this->db->select('siswa.*, kelas.nama_kelas');
+		$this->db->from('siswa');
+		$this->db->join('kelas', 'kelas.id_kelas = siswa.id_kelas', 'left');
+
+		$data = $this->db->get();
 
 		return $data->result();
 	}	
@@ -30,6 +34,7 @@ class M_siswa extends CI_Model {
 		$object = [
 			'nama' 		=> $param['nama'],
 			'alamat' 	=> $param['alamat'],
+			'id_kelas' 	=> $param['id_kelas'],
 		];
 
 		$this->db->where('id', $param['id']);
